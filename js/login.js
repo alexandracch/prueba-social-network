@@ -4,7 +4,7 @@ $(document).ready(function() {
   var config = {
     apiKey: 'AIzaSyBTyPXp0vll8d2Fvi5nViLsKntlNxapEFY',
     authDomain: 'red-social-a1aeb.firebaseapp.com',
-    databaseURL: 'https://red-social-a1aeb.firebaseio.com',
+    databaseURL: 'https://red-social-a1aeb.firebaseio.com', 'https://alexandracch.github.io/prueba-social-network/views/login.html', 
     projectId: 'red-social-a1aeb',
     storageBucket: 'red-social-a1aeb.appspot.com',
     messagingSenderId: '445743781768'
@@ -12,7 +12,6 @@ $(document).ready(function() {
   firebase.initializeApp(config);
   
   $('#login').click(function() {
-    console.log('hola');
     // provedor del servicio
     var provider = new firebase.auth.GoogleAuthProvider();
     // levantar la ventana de gmail y trae un result
